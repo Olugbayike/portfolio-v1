@@ -11,6 +11,10 @@ import { Docker } from "@/components/ui/svgs/docker";
 import { Kubernetes } from "@/components/ui/svgs/kubernetes";
 import { Java } from "@/components/ui/svgs/java";
 import { Csharp } from "@/components/ui/svgs/csharp";
+import  mysql  from "@/components/ui/svgs/mysql";
+import  Linux  from "@/components/ui/svgs/linux";
+import  SpringBoot  from "@/components/ui/svgs/springboot";
+import  Android  from "@/components/ui/svgs/android";
 
 export const DATA = {
   name: "Olugbayike Ade-Onojobi",
@@ -26,15 +30,17 @@ export const DATA = {
   skills: [
     { name: "React", icon: ReactLight },
     { name: "Next.js", icon: NextjsIconDark },
-    { name: "Typescript", icon: Typescript },
-    { name: "Node.js", icon: Nodejs },
+    // { name: "Typescript", icon: Typescript },
+    { name: "Linux", icon: Linux },
     { name: "Python", icon: Python },
-    { name: "Go", icon: Golang },
+    { name: "MySql", icon: mysql },
     { name: "Postgres", icon: Postgresql },
     { name: "Docker", icon: Docker },
-    { name: "Kubernetes", icon: Kubernetes },
+    { name: "Spring Boot", icon: SpringBoot },
     { name: "Java", icon: Java },
-    { name: "C++", icon: Csharp },
+    { name: "Android", icon: Android }
+    
+    // { name: "C++", icon: Csharp },
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -185,67 +191,131 @@ export const DATA = {
       // video: "https://cdn.magicui.design/bento-grid.mp4",
     },
     {
-      title: "llm.report",
-      href: "https://llm.report",
-      dates: "April 2023 - September 2023",
+      title: "symphony of Technologies",
+      href: "https://www.symphonyoftechnologies.com",
+      dates: "March 2026 - April 2026",
       active: true,
       description:
-        "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
+        "built the official website of Symphony of Technologies using react, shadcn and Next.js frameworks. The website can be found on symphonyoftechnologies.com.",
       technologies: [
         "Next.js",
         "Typescript",
-        "PostgreSQL",
-        "Prisma",
+        "React.js",
         "TailwindCSS",
         "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
       ],
       links: [
         {
           type: "Website",
-          href: "https://llm.report",
+          href: "https://www.symphonyoftechnologies.com",
           icon: <Icons.globe className="size-3" />,
         },
-        {
-          type: "Source",
-          href: "https://github.com/dillionverma/llm.report",
-          icon: <Icons.github className="size-3" />,
-        },
       ],
-      image: "",
-      video: "https://cdn.llm.report/openai-demo.mp4",
+      image: "https://imgtree.co/direct/6QEqW58m.png",
+      // video: "https://cdn.llm.report/openai-demo.mp4",
     },
     {
-      title: "Automatic Chat",
-      href: "https://automatic.chat",
+      title: "Caadi Waitlist API",
+      href: "https://1drv.ms/b/c/c49458bd9d158a66/IQAhu4fTN1GUTKkJHv2M_w1RAaYJQpcQaJKiPER4CJizfRI?e=CAqdcu",
       dates: "April 2023 - March 2024",
       active: true,
       description:
-        "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
+        "An API endpoint for the waitlist of users who are registering for the caadi platform. The API could be interacted with through the https://caadi-api.onrender.com link. I have provided screenshots with sample API calls and their results using Postman.",
       technologies: [
-        "Next.js",
-        "Typescript",
+        "Spring Boot",
+        "Java",
         "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
+        "Docker",
+        "Intellij Idea",
       ],
       links: [
         {
-          type: "Website",
-          href: "https://automatic.chat",
+          type: "Documentation",
+          href: "https://1drv.ms/b/c/c49458bd9d158a66/IQAhu4fTN1GUTKkJHv2M_w1RAaYJQpcQaJKiPER4CJizfRI?e=CAqdcu",
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "",
-      video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
+      image: "https://imgtree.co/direct/B8hU8mHO.png",
+      // video:
+      //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
     },
+    {
+      title: "Coda Pizza",
+      href: "https://github.com/Olugbayike/Android-Tutorials-Big-Nerd-Ranch/tree/main/CodaPizza",
+      dates: "Jun 2024 - Aug 2024",
+      active: true,
+      description:
+        "A Big Nerd Ranch android tutorial relating to creating a pizza topping selection app using Jetpack compose framework in the Android SDK.",
+      technologies: [
+        "Android Jetpack",
+        "Android SDK",
+        "Kotlin Coroutines",
+        "Kotlin",
+        "Jetpack Compose",
+      ],
+      links: [
+        {
+          type: "Code",
+          href: "https://github.com/Olugbayike/Android-Tutorials-Big-Nerd-Ranch/tree/main/CodaPizza",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "https://imgtree.co/direct/BIYk00Hj.png",
+      // video:
+      //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
+    },
+    {
+      title: "Photo Gallery",
+      href: "https://github.com/Olugbayike/Android-Tutorials-Big-Nerd-Ranch/tree/main/PhotoGallery",
+      dates: "April 2024 - May 2024",
+      active: true,
+      description:
+        "This project is from the Big Nerd Ranch Guide: Android Programming 5th edition. In this project, I worked on consuming the Flickr API using Retrofit and OkHTTP. At the moment the app displays images from Flickr and also displays images by search. The project is available on my GitHub page",
+      technologies: [
+        "Android Jetpack",
+        "Android SDK",
+        "Kotlin Coroutines",
+        "Kotlin",
+        "Retrofit",
+        "OkHTTP"
+      ],
+      links: [
+        {
+          type: "Code",
+          href: "https://github.com/Olugbayike/Android-Tutorials-Big-Nerd-Ranch/tree/main/PhotoGallery",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "https://imgtree.co/direct/4vV04weI.png",
+      // video:
+      //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
+    },
+    {
+      title: "Criminal Intent",
+      href: "https://github.com/Olugbayike/Android-Tutorials-Big-Nerd-Ranch/tree/main/CriminalIntent",
+      dates: "April 2024 - May 2024",
+      active: true,
+      description:
+        "This project is from the Big Nerd Ranch Guide: Android Programming 5th edition. In this project, I worked on storing data in the local database using the room API. The data stored are details of a crime like the title, the date the crime was committed and if it has been solved.",
+      technologies: [
+        "Android Jetpack",
+        "Android SDK",
+        "Kotlin Coroutines",
+        "Kotlin",
+        "SQLite",
+      ],
+      links: [
+        {
+          type: "Code",
+          href: "https://github.com/Olugbayike/Android-Tutorials-Big-Nerd-Ranch/tree/main/CriminalIntent",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "https://imgtree.co/direct/eRpFGoW_.png",
+      // video:
+      //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
+    },
+
   ],
   hackathons: [
     {
