@@ -135,6 +135,7 @@ export const DATA = {
     {
       title: "Symphony",
       dates: "August 2024 - Present",
+      href: "",
       active: true,
       description:
         "Symphony is an Android music app that uses Spotify API for music data unfortunately Spotify has made changes to their API. So I have to think of alternative means to move the project forward. " +
