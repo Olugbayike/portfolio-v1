@@ -158,7 +158,7 @@ export const DATA = {
         // },
       ],
       image: "https://imgtree.co/direct/Jf3cMRPP.png",
-      // video:
+      video: ""
       //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
     },
     {
@@ -189,6 +189,7 @@ export const DATA = {
         // },
       ],
       image: "https://imgtree.co/direct/F_ouWIGq.png",
+      video: ""
       // video: "https://cdn.magicui.design/bento-grid.mp4",
     },
     {
@@ -213,6 +214,7 @@ export const DATA = {
         },
       ],
       image: "https://imgtree.co/direct/6QEqW58m.png",
+      video: ""
       // video: "https://cdn.llm.report/openai-demo.mp4",
     },
     {
@@ -237,6 +239,7 @@ export const DATA = {
         },
       ],
       image: "https://imgtree.co/direct/B8hU8mHO.png",
+      video: ""
       // video:
       //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
     },
@@ -262,6 +265,7 @@ export const DATA = {
         },
       ],
       image: "https://imgtree.co/direct/BIYk00Hj.png",
+      video: ""
       // video:
       //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
     },
@@ -288,6 +292,7 @@ export const DATA = {
         },
       ],
       image: "https://imgtree.co/direct/4vV04weI.png",
+      video: ""
       // video:
       //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
     },
@@ -313,6 +318,7 @@ export const DATA = {
         },
       ],
       image: "https://imgtree.co/direct/eRpFGoW_.png",
+      video: ""
       // video:
       //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
     },
@@ -336,6 +342,7 @@ export const DATA = {
         
       ],
       image: "https://imgtree.co/direct/LFIE9Qt0.png",
+      video: ""
       // video:
       //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
     },
@@ -362,6 +369,7 @@ export const DATA = {
         },
       ],
       image: "",
+      video: ""
       // video:
       //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
     },
@@ -384,6 +392,7 @@ export const DATA = {
         },
       ],
       image: "https://imgtree.co/direct/bY40Z9zW.png",
+      video: ""
       // video:
       //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
     },
@@ -404,6 +413,7 @@ export const DATA = {
         },
       ],
       image: "",
+      video: ""
       // video:
       //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
     },
@@ -430,6 +440,7 @@ export const DATA = {
         },
       ],
       image: "",
+      video: ""
       // video:
       //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
     },
