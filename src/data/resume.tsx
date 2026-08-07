@@ -293,7 +293,7 @@ export const DATA = {
     {
       title: "Criminal Intent",
       href: "https://github.com/Olugbayike/Android-Tutorials-Big-Nerd-Ranch/tree/main/CriminalIntent",
-      dates: "April 2024 - May 2024",
+      dates: "January 2024 - February 2024",
       active: true,
       description:
         "This project is from the Big Nerd Ranch Guide: Android Programming 5th edition. In this project, I worked on storing data in the local database using the room API. The data stored are details of a crime like the title, the date the crime was committed and if it has been solved.",
@@ -315,7 +315,123 @@ export const DATA = {
       // video:
       //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
     },
-
+    {
+      title: "Car Sales Dataset Analysis",
+      href: "https://1drv.ms/b/c/c49458bd9d158a66/IQBmihWdvViUIIDEAkMAAAAAARPPZ_0_3aMDiunX8mgIiE0?e=X3z540",
+      dates: "January 2022 - March 2022",
+      active: true,
+      description:
+        "Analyzed a chosen dataset using tableau for data visualization and analysis and used Weka for data mining.",
+      technologies: [
+        "Tableu",
+        "Weka",
+      ],
+      links: [
+        {
+          type: "Documentation",
+          href: "https://1drv.ms/b/c/c49458bd9d158a66/IQBmihWdvViUIIDEAkMAAAAAARPPZ_0_3aMDiunX8mgIiE0?e=X3z540",
+          icon: <Icons.globe className="size-3" />,
+        },
+        
+      ],
+      image: "https://imgtree.co/direct/LFIE9Qt0.png",
+      // video:
+      //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
+    },
+    {
+      title: "Digit Recognition using K-Nearest Neigbour",
+      href: "https://1drv.ms/b/c/c49458bd9d158a66/IQBmihWdvViUIIDEqkIAAAAAAeNdzP-FoTu__ByDj9bXTV0?e=qWtW2X",
+      dates: "January 2022 - March 2022",
+      active: true,
+      description:
+        "Implemented an AI algorithm to detect digits through their pixel values. For this problem, I used the KNN algorithm.",
+      technologies: [
+        "Java",
+      ],
+      links: [
+        {
+          type: "Documentation",
+          href: "https://1drv.ms/b/c/c49458bd9d158a66/IQBmihWdvViUIIDEqkIAAAAAAeNdzP-FoTu__ByDj9bXTV0?e=qWtW2X",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Code",
+          href: "https://github.com/Olugbayike/DigitRecognition",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      // video:
+      //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
+    },
+    {
+      title: "Transport robot",
+      href: "https://1drv.ms/b/c/c49458bd9d158a66/IQBmihWdvViUIIDEEUMAAAAAAZIAWJO64a71CIm6oRS5WPI?e=D0VMlO",
+      dates: "October 2021 - March 2022",
+      active: true,
+      description:
+        "Using The Construct simulation environment, built a mobile robot used for transporting small items up to 5Kg. The robot went through the design, implementation, and testing phases. ",
+      technologies: [
+        "ROS",
+        "Python",
+      ],
+      links: [
+        {
+          type: "Documentation",
+          href: "https://1drv.ms/b/c/c49458bd9d158a66/IQBmihWdvViUIIDEEUMAAAAAAZIAWJO64a71CIm6oRS5WPI?e=D0VMlO",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "https://imgtree.co/direct/bY40Z9zW.png",
+      // video:
+      //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
+    },
+    {
+      title: "Football (Soccer) Analytics",
+      href: "https://github.com/Olugbayike/DigitRecognition",
+      dates: "September 2021 - December 2021",
+      active: true,
+      description:
+        "Analyzed a fictional scenario using data analytics to improve the organization. In the project, I discussed the data requirements, i.e., internal and external data; data suitable for storage in the data warehouse; the Extract, Transform, and Load process (ETL); and Online Analytical Processing (OLAP). As applicable to the project.",
+      technologies: [
+      ],
+      links: [
+        {
+          type: "Documentation",
+          href: "https://1drv.ms/b/c/c49458bd9d158a66/IQBmihWdvViUIIDEW0IAAAAAAXSHzHCAtLTtZ6GndunaOZg?e=y2F0NU",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      // video:
+      //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
+    },
+    {
+      title: "TSP with Genetic Algorithm",
+      href: "https://1drv.ms/b/c/c49458bd9d158a66/IQBmihWdvViUIIDEO0IAAAAAASZwiPb28VnP_7U3ZLhuvC0?e=ztUfHJ",
+      dates: "November 2021 - December 2022",
+      active: true,
+      description:
+        "Module Lecturer: Mr. Mark Borg. Implemented the genetic algorithm to solve the travelling salesman problem (TSP). The code can be found on my GitHub profile.",
+      technologies: [
+        "Java",
+      ],
+      links: [
+        {
+          type: "Documentation",
+          href: "https://1drv.ms/b/c/c49458bd9d158a66/IQBmihWdvViUIIDEO0IAAAAAASZwiPb28VnP_7U3ZLhuvC0?e=ztUfHJ",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Code",
+          href: "https://github.com/Olugbayike/TSP-with-Genetic-Algorithm",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      // video:
+      //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
+    },
   ],
   hackathons: [
     {
