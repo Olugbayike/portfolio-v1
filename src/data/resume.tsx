@@ -25,7 +25,10 @@ export const DATA = {
   description:
     "Software Engineer and Entrepreneur. I love building software and solving real-world problems through code.",
   summary:
-    "I believe everyone is an artist, some use paint brushes, some use words, some use rulers and dimensions, I use 0's and 1's, i.e., I express myself through code. Inspiration is a beautiful thing so I plan to showcase my projects or neigh I say pieces as I continue to grow.",
+    "Accomplished Software Developer with 5+ years of experience in designing and developing responsive web and mobile " +
+    "applications. Expertise in Kotlin, Java, JavaScript, HTML, CSS, PHP, MySQL, and Git, with a strong focus on front-end and " +
+    "Android application development. Builds scalable, user-centered solutions and collaborates with cross-functional teams to deliver " +
+    "high-quality software in agile environments.",
   avatarUrl: "/olugbayike.jpg",
   skills: [
     { name: "React", icon: ReactLight },
@@ -98,7 +101,12 @@ export const DATA = {
       start: "Feb 2020",
       end: "Jun 2025",
       description:
-        "At EASYWARE (U.K.) LIMITED, I played a key role as a Software Developer, collaborating on various web applications that prioritized user experience and responsiveness. My responsibilities included designing user interfaces and implementing forms that remain in use today. I contributed to several projects, including Autobreakdown and bloo.market, leveraging my skills in PHP, HTML, CSS, and JavaScript to create impactful solutions",
+        "• Led front end development for enterprise and client-facing web applications, including Auto breakdown, Football-NG, and JobsAfrique, delivering scalable and high-performance solutions that met business objectives.\n" +
+        "• Designed and developed responsive, mobile-first user interfaces using modern front-end technologies, ensuring cross browser compatibility, accessibility, and an exceptional user experience across desktop and mobile platforms.\n" +
+
+        "• Established and implemented consistent UI/UX design systems and reusable component libraries, improving brand consistency, accelerating development cycles, and enhancing application maintainability.\n" +
+        "• Collaborated with cross-functional teams, including designers and product managers, to translate business requirements into user-centric web applications, ensuring seamless feature integration and enhancing overall user satisfaction.\n" +
+        "• Provided back-end development support using PHP, contributing to full stack application development, API integration, performance optimisation, code quality, and the successful delivery of robust, production-ready software.",
     },
     {
       company: "EASYWARE (U.K.) LIMITED",
@@ -110,7 +118,7 @@ export const DATA = {
       start: "Feb 2020",
       end: "May 2020",
       description:
-        "Assisted in creating mobile-first web apps using HTML, CSS, and Javascript for the front end and PHP for the back end.",
+        "",
     },
   ],
   education: [
@@ -138,8 +146,8 @@ export const DATA = {
       href: "",
       active: true,
       description:
-        "Symphony is an Android music app that uses Spotify API for music data unfortunately Spotify has made changes to their API. So I have to think of alternative means to move the project forward. " +
-        "In its current iteration, it uses the Spotify app remote API to play songs remotely on the Spotify app, and it uses Retrofit2, OkHTTP3, and Moshi to get data from Spotify using their web API.",
+        "Developing an Android music application integrating Spotify, MusicBrainz, Last.fm, and Genius APIs.\n" +
+        "Implemented Spotify App Remote for music playback and building search and discovery features.",
       technologies: [
         "Android Development",
         "Kotlin",
@@ -157,7 +165,7 @@ export const DATA = {
         //   icon: <Icons.github className="size-3" />,
         // },
       ],
-      image: "https://imgtree.co/direct/Jf3cMRPP.png",
+      image: "https://i.postimg.cc/j2CPf5by/Poco-a-Poco-Light.png",
       video: ""
       //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
     },
@@ -193,12 +201,12 @@ export const DATA = {
       // video: "https://cdn.magicui.design/bento-grid.mp4",
     },
     {
-      title: "symphony of Technologies",
+      title: "Symphony of Technologies",
       href: "https://www.symphonyoftechnologies.com",
       dates: "March 2026 - April 2026",
       active: true,
       description:
-        "built the official website of Symphony of Technologies using react, shadcn and Next.js frameworks. The website can be found on symphonyoftechnologies.com.",
+        "Developed the official website of Symphony of Technologies using react, shadcn and Next.js frameworks. The website can be found on symphonyoftechnologies.com.",
       technologies: [
         "Next.js",
         "Typescript",
@@ -223,7 +231,8 @@ export const DATA = {
       dates: "April 2023 - March 2024",
       active: true,
       description:
-        "An API endpoint for the waitlist of users who are registering for the caadi platform. The API could be interacted with through the https://caadi-api.onrender.com link. I have provided screenshots with sample API calls and their results using Postman.",
+        "Developed RESTful API endpoints using Java (Spring Boot) and PostgreSQL to manage waitlist users. \n" +
+        "Built scalable backend functionality and produced technical documentation.",
       technologies: [
         "Spring Boot",
         "Java",
@@ -249,7 +258,8 @@ export const DATA = {
       dates: "Jun 2024 - Aug 2024",
       active: true,
       description:
-        "A Big Nerd Ranch android tutorial relating to creating a pizza topping selection app using Jetpack compose framework in the Android SDK.",
+        "Built an Android application using Jetpack Compose with an interactive pizza customization interface.\n" +
+        "Applied modern UI state management and responsive design principles.",
       technologies: [
         "Android Jetpack",
         "Android SDK",
@@ -275,7 +285,8 @@ export const DATA = {
       dates: "April 2024 - May 2024",
       active: true,
       description:
-        "This project is from the Big Nerd Ranch Guide: Android Programming 5th edition. In this project, I worked on consuming the Flickr API using Retrofit and OkHTTP. At the moment the app displays images from Flickr and also displays images by search. The project is available on my GitHub page",
+        "Developed an Android application that retrieves and searches images using the Flickr API.\n" +
+        "Implemented network communication with Retrofit and OkHttp.",
       technologies: [
         "Android Jetpack",
         "Android SDK",
@@ -302,7 +313,8 @@ export const DATA = {
       dates: "January 2024 - February 2024",
       active: true,
       description:
-        "This project is from the Big Nerd Ranch Guide: Android Programming 5th edition. In this project, I worked on storing data in the local database using the room API. The data stored are details of a crime like the title, the date the crime was committed and if it has been solved.",
+        "Built an Android application for managing crime records using Room and SQLite.\n" +
+        "Implemented efficient local data persistence and CRUD operations.",
       technologies: [
         "Android Jetpack",
         "Android SDK",
@@ -328,7 +340,7 @@ export const DATA = {
       dates: "January 2022 - March 2022",
       active: true,
       description:
-        "Analyzed a chosen dataset using tableau for data visualization and analysis and used Weka for data mining.",
+        "Analyzed vehicle sales data using Tableau and Weka to identify trends and business insights.",
       technologies: [
         "Tableu",
         "Weka",
@@ -341,7 +353,7 @@ export const DATA = {
         },
         
       ],
-      image: "https://imgtree.co/direct/LFIE9Qt0.png",
+      image: "",
       video: ""
       // video:
       //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
@@ -352,7 +364,7 @@ export const DATA = {
       dates: "January 2022 - March 2022",
       active: true,
       description:
-        "Implemented an AI algorithm to detect digits through their pixel values. For this problem, I used the KNN algorithm.",
+        "Developed a K-Nearest Neighbors (KNN) model to recognize handwritten digits from the MNIST dataset.",
       technologies: [
         "Java",
       ],
@@ -379,7 +391,7 @@ export const DATA = {
       dates: "October 2021 - March 2022",
       active: true,
       description:
-        "Using The Construct simulation environment, built a mobile robot used for transporting small items up to 5Kg. The robot went through the design, implementation, and testing phases. ",
+        "Designed and simulated a mobile transport robot using ROS and The Construct simulation platform.",
       technologies: [
         "ROS",
         "Python",
@@ -391,7 +403,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "https://imgtree.co/direct/bY40Z9zW.png",
+      image: "https://i.postimg.cc/Ghysn63J/Screenshot-(42).png",
       video: ""
       // video:
       //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
@@ -402,7 +414,7 @@ export const DATA = {
       dates: "September 2021 - December 2021",
       active: true,
       description:
-        "Analyzed a fictional scenario using data analytics to improve the organization. In the project, I discussed the data requirements, i.e., internal and external data; data suitable for storage in the data warehouse; the Extract, Transform, and Load process (ETL); and Online Analytical Processing (OLAP). As applicable to the project.",
+        "Designed a data analytics solution incorporating ETL, data warehousing, and OLAP to support decision-making.",
       technologies: [
       ],
       links: [
@@ -423,7 +435,7 @@ export const DATA = {
       dates: "November 2021 - December 2022",
       active: true,
       description:
-        "Module Lecturer: Mr. Mark Borg. Implemented the genetic algorithm to solve the travelling salesman problem (TSP). The code can be found on my GitHub profile.",
+        "Developed a K-Nearest Neighbors (KNN) model to recognize handwritten digits from the MNIST dataset.",
       technologies: [
         "Java",
       ],
