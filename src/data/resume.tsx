@@ -165,7 +165,7 @@ export const DATA = {
         //   icon: <Icons.github className="size-3" />,
         // },
       ],
-      image: "https://i.postimg.cc/j2CPf5by/Poco-a-Poco-Light.png",
+      image: "https://imgtree.co/direct/Jf3cMRPP.png",
       video: ""
       //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
     },
@@ -403,7 +403,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "https://i.postimg.cc/Ghysn63J/Screenshot-(42).png",
+      image: "https://imgtree.co/direct/bY40Z9zW.png",
       video: ""
       // video:
       //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
