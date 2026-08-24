@@ -118,7 +118,11 @@ export const DATA = {
       start: "Feb 2020",
       end: "May 2020",
       description:
-        "",
+        "• Collaborated with senior developers to design and develop responsive, mobile-first web applications that delivered an optimal user experience across devices. \n"+
+        "• Contributed to the design and implementation of responsive web applications, working closely with senior developers to deliver high-quality, scalable solutions.\n" +
+        "• Implemented responsive user interfaces for mobile-first web applications, ensuring adherence to industry best practices and coding standards for improved usability.\n" +
+        "• Contributed to development and maintenance of mobile-first web applications, ensuring cross-browser compatibility and optimizing performance for a seamless user experience." +
+        "• Assisted with the design, development, and implementation of responsive, mobile-first web applications.",
     },
   ],
   education: [
